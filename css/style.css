@@ -1,0 +1,40 @@
+*{padding: 0;margin: 0;box-sizing: border-box;font-family: 'Heebo', sans-serif;
+}
+a{text-decoration: none;}
+li{list-style: none;}
+
+header{width: 100%;background-color: #080717;height: 120px;}
+
+.container-header{max-width: 80%;display:flex; margin: 0 auto;justify-content: space-between;flex-wrap: wrap;padding-top: 20px;}
+
+.container-header nav ul{display: flex;padding-top: 30px;}
+
+.container-header nav ul li a{color: #fff;padding-right: 50px;}
+
+.container-header nav ul li a:hover{color:coral;}
+
+/*main*/
+
+main{background-image: url('../imagem/HERO.png');
+background-position: center;
+background-size: cover;
+height: 80vh;}
+
+.container-hero{max-width: 80%;margin: 0 auto;color: #fff;padding-top: 100px;}
+
+.container-hero h2{font-size: 38px;padding-bottom: 50px;}
+
+.container-hero a {background-color: #1286C9;padding: 10px 30px;color: #fff;font-weight: 500;}
+
+
+.container-hero a:hover{background-color:#080717;transition: 2s;}
+
+.container-hero form {margin: 0 auto;}
+
+.container-hero form input,select{padding: 8px 50px;margin-top: 50px;}
+
+.container-hero form input[type=submit]{
+    background-color: #080717;border: 4px solid #080717;color: #fff;
+}
+
+.container-hero form input[type=submit]:hover{background-color: #050050;border: 4px solid  #050050;transition: 2s;}
