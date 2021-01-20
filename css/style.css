@@ -43,7 +43,7 @@ height: 80vh;}
 
 .container-servicos{max-width: 65%;margin: 0 auto;display: flex;justify-content: space-between;text-align: center;position: relative;bottom:50px}
 
-.container-servicos h3{color: #fff;font-size: 35px;font-weight: 400;padding-top: 100px;}
+.container-servicos h3{color: #fff;font-size: 30px;font-weight: 400;padding-top: 100px;}
 
 .container-servicos h3::after{
     content:"";
@@ -66,7 +66,7 @@ height: 80vh;}
 
 
 /*quartos*/
-.container-acomodacao{max-width: 75%;display:flex;justify-content: center;margin: 0 auto;}
+.container-acomodacao{max-width: 75%;display:flex;justify-content: center;margin: 0 auto;margin-bottom: 50px;}
 
 .container-acomodacao img{padding-right: 20px;}
 
@@ -81,3 +81,38 @@ height: 80vh;}
 .container-acomodacao a{background-color: #1286C9;color: #fff;padding: 10px 70px;}
 
 .container-acomodacao a:hover{background-color: #050050;transition: 2s;}
+
+
+/*FOTOS*/
+
+#fotos{background-image: url('../imagem/BACKGROUND2.png');height: 100vh;}
+
+.container-fotos{color: #fff;text-align: center;
+    margin: 0 auto;max-width: 80%;}
+
+
+.container-fotos h2{padding-top: 50px;font-size: 40px;}
+
+.container-fotos h2::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:2px;
+    background: #fff;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.fotos-box{display: flex;justify-content: space-between;margin: 10px auto;text-align: left;}
+
+.fotos-box h5{font-size: 18px;}
+
+.fotos-box p{padding-bottom: 20px;}
+
+.container-fotos a{background-color:#CDAF20 ;padding:8px 50px;color: #fff;}
+
+.container-fotos a:hover{background-color:#917b0d;transition: 1s;}
+
+
+/*NEWSLATER*/
