@@ -116,3 +116,52 @@ height: 80vh;}
 
 
 /*NEWSLATER*/
+.newslater{max-width: 80%;margin:50px auto;padding: 50px 0px;background-color: #080717;text-align: center;}
+
+.newslater h3{color:#fff;padding-bottom: 20px;}
+
+.container-newslater{width: 80%;margin: 0 auto;}
+
+.container-newslater input[type="email"] {padding: 8px 30px;width: 40%;} 
+
+.container-newslater input[type="submit"] {padding: 8px 30px;width: 25%;text-align: center;background-color: #1286C9;color: #fff;font-weight: bold;border: 2px solid #1286C9;} 
+
+.container-newslater input[type="submit"]:hover{
+    background-color: #054e79;border: 2px solid#054e79;transition: 2s;
+}
+
+/*turismo*/
+
+#turismo{max-width:80%;margin:0 auto;background-image: url('../imagem/turismo.png');height: 55vh;background-size: cover;background-position: center;margin-bottom: 50px;}
+
+.container-turismo{max-width: 55%;text-align: center;color:#fff;margin: 0px auto;padding: 25px;}
+
+.container-turismo h2{margin-bottom: 10px;}
+
+.container-turismo h2::after{
+    content:"";
+    display:block;
+    width:60px;
+    height:2px;
+    background: #fff;
+    margin:auto;
+    margin-top:10px;
+    margin-bottom:20px;
+}
+
+.container-turismo p{font-size: 16px;margin-bottom: 20px;}
+
+.container-turismo a{background-color: #CDAF20;text-decoration: none;color: #fff;padding: 8px 50px;}
+
+.container-turismo a:hover{background-color: #8f7808;}
+
+
+/*footer*/
+
+footer{width: 100%;background-color: #080717;color:#FFF;}
+
+.container-rodape{max-width:80%;display: flex;margin:0 auto;justify-content: space-between;padding: 20px;align-items: center;text-align: left;}
+
+.container-rodape img{padding-right: 20px;}
+
+footer p{text-align: center;padding-bottom: 20px;}
