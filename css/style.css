@@ -26,7 +26,6 @@ height: 80vh;}
 
 .container-hero a {background-color: #1286C9;padding: 10px 30px;color: #fff;font-weight: 500;}
 
-
 .container-hero a:hover{background-color:#080717;transition: 2s;}
 
 .container-hero form {margin: 0 auto;}
@@ -39,6 +38,12 @@ height: 80vh;}
 
 .container-hero form input[type=submit]:hover{background-color: #050050;border: 4px solid  #050050;transition: 2s;}
 
+
+@media(max-width:750px){
+    .hero{display: none;}
+    .container-hero{padding-top: 20px;}
+    .container-hero form input select{width: 80%;margin: 0 auto;margin-bottom: 20px;}
+}
 /*BOXES*/
 
 .container-servicos{max-width: 65%;margin: 0 auto;display: flex;justify-content: space-between;text-align: center;position: relative;bottom:50px}
@@ -58,13 +63,15 @@ height: 80vh;}
 
 .container-servicos p{color:#fff;font-weight: 400;}
 
-.box-one{background-image: url('../imagem/passeios.png');width: 300px;height: 300px;}
+.box-one{background-image: url('../imagem/passeios.png');width: 300px;height: 300px;margin-bottom: 20px;}
 
-.box-two{background-image: url('../imagem/quarta.png');width: 300px;height: 300px;}
+.box-two{background-image: url('../imagem/quarta.png');width: 300px;height: 300px;margin-bottom: 20px;}
 
-.box-three{background-image: url('../imagem/Gastronomia.png');width: 300px;height: 300px;}
+.box-three{background-image: url('../imagem/Gastronomia.png');width: 300px;height: 300px;margin-bottom: 20px;}
 
-
+@media(max-width:800px){
+    .container-servicos{flex-direction: column;}
+}
 /*quartos*/
 .container-acomodacao{max-width: 75%;display:flex;justify-content: center;margin: 0 auto;margin-bottom: 50px;}
 
@@ -82,7 +89,10 @@ height: 80vh;}
 
 .container-acomodacao a:hover{background-color: #050050;transition: 2s;}
 
-
+@media(max-width:750px){
+    .container-acomodacao{flex-direction: column;}
+    .container-acomodacao img{width: 100%;}
+}
 /*FOTOS*/
 
 #fotos{background-image: url('../imagem/BACKGROUND2.png');height: 100vh;}
@@ -114,7 +124,10 @@ height: 80vh;}
 
 .container-fotos a:hover{background-color:#917b0d;transition: 1s;}
 
-
+@media(max-width:1200px){
+    #fotos{height: 250vh;}
+    .fotos-box{flex-wrap: wrap;flex-direction: column;}
+}
 /*NEWSLATER*/
 .newslater{max-width: 80%;margin:50px auto;padding: 50px 0px;background-color: #080717;text-align: center;}
 
@@ -128,6 +141,11 @@ height: 80vh;}
 
 .container-newslater input[type="submit"]:hover{
     background-color: #054e79;border: 2px solid#054e79;transition: 2s;
+}
+
+@media(max-width:750px){
+    .newslater{max-width: 90%;}
+    .container-newslater{width: 100%;}
 }
 
 /*turismo*/
@@ -155,7 +173,11 @@ height: 80vh;}
 
 .container-turismo a:hover{background-color: #8f7808;}
 
-
+@media(max-width:900px){
+    #turismo{width: 100%;height: 70vh;}
+    .container-turismo{max-width: 100%;}
+    .container-turismo p{font-size: 15px;}
+}
 /*footer*/
 
 footer{width: 100%;background-color: #080717;color:#FFF;}
@@ -165,3 +187,7 @@ footer{width: 100%;background-color: #080717;color:#FFF;}
 .container-rodape img{padding-right: 20px;}
 
 footer p{text-align: center;padding-bottom: 20px;}
+
+@media(max-width:750px){
+    .container-rodape{flex-direction: column;}
+}
