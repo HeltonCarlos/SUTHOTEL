@@ -5,6 +5,10 @@ li{list-style: none;}
 
 header{width: 100%;background-color: #080717;height: 120px;}
 
+.desktop{display: flex;align-items: center;}
+
+.mobile{display: none;}
+
 .desktop img{margin-right: 150px;}
 
 .container-header{max-width: 80%;display:flex; margin: 0 auto;flex-wrap: wrap;padding-top:25px;}
@@ -14,6 +18,13 @@ header{width: 100%;background-color: #080717;height: 120px;}
 .container-header nav ul li a{color: #fff;padding-right: 50px;font-weight: bold;}
 
 .container-header nav ul li a:hover{color:coral;}
+
+
+
+@media(max-width:1050px){
+    .mobile{display: block;margin-top: 35px;}
+    .container-header nav{display: none;}
+}
 
 /*main*/
 
@@ -152,7 +163,7 @@ height: 80vh;}
 
 /*turismo*/
 
-#turismo{max-width:80%;margin:0 auto;background-image: url('../imagem/turismo.png');height: 55vh;background-size: cover;background-position: center;margin-bottom: 50px;}
+#turismo{max-width:80%;margin:0 auto;background-image: url('../imagem/turismo.png');height: 60vh;background-size: cover;background-position: center;margin-bottom: 50px;}
 
 .container-turismo{max-width: 55%;text-align: center;color:#fff;margin: 0px auto;padding: 25px;}
 
