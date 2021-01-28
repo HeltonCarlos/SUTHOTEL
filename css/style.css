@@ -5,11 +5,13 @@ li{list-style: none;}
 
 header{width: 100%;background-color: #080717;height: 120px;}
 
-.container-header{max-width: 80%;display:flex; margin: 0 auto;justify-content: space-between;flex-wrap: wrap;padding-top:25px;}
+.desktop img{margin-right: 150px;}
+
+.container-header{max-width: 80%;display:flex; margin: 0 auto;flex-wrap: wrap;padding-top:25px;}
 
 .container-header nav ul{display: flex;padding-top: 30px;}
 
-.container-header nav ul li a{color: #fff;padding-right: 50px;}
+.container-header nav ul li a{color: #fff;padding-right: 50px;font-weight: bold;}
 
 .container-header nav ul li a:hover{color:coral;}
 
