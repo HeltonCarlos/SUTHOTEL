@@ -13,20 +13,28 @@
         <div class="container-header">
             <div class="desktop">
                 <img src="imagem/logo.png" alt="logo">
-                <div class="mobile">
-                    <img src="imagem/botao-de-menu-de-tres-linhas-horizontais.png" alt="menu">
+                <div>
+                    <img src="imagem/botao-de-menu-de-tres-linhas-horizontais.png" alt="menu" id="mobile">
                 </div>
             </div>
             <nav>
                 <ul>
                     <li><a href="#">HOTEL</a></li>
-                    <li><a href="#">FOTOS</a></li>
-                    <li><a href="#">TURISMO</a></li>
-                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#fotos">FOTOS</a></li>
+                    <li><a href="#turismo">TURISMO</a></li>
+                    <li><a href="#contato">CONTATO</a></li>
+                </ul>
+            </nav>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">HOTEL</a></li> <hr>
+                    <li><a href="#fotos">FOTOS</a></li><hr>
+                    <li><a href="#turismo">TURISMO</a></li><hr>
+                    <li><a href="#contato">CONTATO</a></li><hr>
                 </ul>
             </nav>
         </div>
-
 
         <div class="mobile">
 
@@ -35,8 +43,8 @@
     <main>
         <div class="container-hero">
             <div class="hero">
-                <h2>O SutHotel é perfeito para quem procura estadia de qualidade.
-                <br>  Aqui priorizamos a satisfação total de nossos hóspedes.</h2>
+                <h2>O SutHotel é perfeito para quem procura estadia de qualidade.</h2>
+                <p>Aqui priorizamos a satisfação total de nossos hóspedes.</p>
 
                 <a href="#">NOSSO HOTEL</a>
             </div>
@@ -66,7 +74,7 @@
 
     </main>
 
-    <section>
+    <section id="hotel">
         <div class="container-servicos">
             <div class="box-one">
                 <h3>PASSEIOS</h3>
@@ -161,7 +169,7 @@
         </div>
     </section>
 
-    <footer>
+    <footer id="contato">
             <div class="container-rodape">
               <div>
                   <h3><span><img src="imagem/location-pin.png" alt="gps"></span>Onde Estamos:</h3>

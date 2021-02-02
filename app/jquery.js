@@ -1,5 +1,3 @@
-(function(){
-    $('').click(function(){
-        alert('cuidado')
-    })
+$("#mobile").click(function(){
+    $('.menu-desktop').slideToggle();
 })
